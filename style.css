@@ -7,21 +7,26 @@
   box-sizing: border-box;
 }
 
+/* Custom Properties, update these for your own design */
+
 :root {
   --ff-primary: 'Source Sans Pro', sans-serif;
-  --ff-secondaryy: 'Source Code Pro', monospace;
+  --ff-secondary: 'Source Code Pro', monospace;
 
   --fw-reg: 300;
   --fw-bold: 900;
 
-  --cl-light: #fff;
-  --cl-dark: #303030;
-  --cl-accent: #16e0bd;
+  --clr-light: #fff;
+  --clr-dark: #303030;
+  --clr-accent: #16e0bd;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
   --fs-h3: 1.25rem;
   --fs-body: 1rem;
+
+  --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25em),
+    0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
 
 @media (min-width: 800px) {
@@ -36,18 +41,36 @@
 /* General Styles */
 
 body {
-  border: 1px solid #000;
-  margin: 10px;
-  padding: 10px;
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
+  margin: 0;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 /* Typography */
 
-.nav__list {
-  list-style-type: none;
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+  margin: 0;
 }
 
-.profile-pic,
-.profile1-pic {
-  width: 200px;
+h1 {
+  font-size: var(--fs-h1);
+}
+
+h2 {
+  font-size: var(--fs-h2);
+}
+
+h3 {
+  font-size: var(--fs-h3);
 }

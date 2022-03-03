@@ -25,7 +25,7 @@
   <body>
     <header>
       <div class="logo">
-        <img class="" src="" alt="" />
+        <img src="" alt="" class="" />
       </div>
       <button class="nav-toggle" aria-label="toggle navigation">
         <span class="hamburger"></span>
@@ -33,33 +33,31 @@
       <nav class="nav">
         <!-- prettier-ignore -->
         <ul class="nav__list">
-          <li class="nav__item"><a href="#home" class="">Home</a></li>
-          <li class="nav__item"><a href="#services" class="">My Services</a></li>
-          <li class="nav__item"><a href="#about" class="">About Me</a></li>
-          <li class="nav__item"><a href="#work" class="">My Work</a></li>
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#services" class="nav__link">My Services</a><li>
+          <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
         </ul>
       </nav>
     </header>
 
     <!-- Introduction -->
-
     <section class="intro" id="home">
       <h1 class="section__title section__title--intro">
         Hi, I am <strong>Brian Bycynski</strong>
       </h1>
-      <p class="section__subtitle section__subtitle--intro">front end dev</p>
+      <p class="section__subtitle section__subtitle--intro">front-end dev</p>
       <img
-        src="./img/profile1-pic.jpg"
-        alt="smiling picture of Brian Bycynski"
-        class=""
+        src="/img/profile1-pic.jpg"
+        alt="a picture of Brian Bycynski Smiling"
+        class="intro__img"
       />
     </section>
 
-    <!-- Services -->
-
+    <!-- My Services -->
     <section class="my-services" id="services">
-      <h2 class="section__title section__title--services">What I do</h2>
-      <div class="service">
+      <h2 class="section__title section__title--services">What I Do</h2>
+      <div class="services">
         <div class="service">
           <h3>Design + Development</h3>
           <p>
@@ -71,7 +69,7 @@
         </div>
 
         <div class="service">
-          <h3>E-Commerce</h3>
+          <h3>E-commerce</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -81,7 +79,7 @@
         </div>
 
         <div class="service">
-          <h3>Wordpress</h3>
+          <h3>WordPress</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -97,76 +95,103 @@
     <!-- About Me -->
     <section class="about-me" id="about">
       <h2 class="section__title section__title--about">Who I Am</h2>
-      <p class="section__subtitle section__subtitle--about"></p>
+      <p class="section__subtitle section__subtitle--about">
+        Junior front-end dev based out of St Petersburg, FL
+      </p>
 
       <div class="about-me__body">
         <p></p>
         <p></p>
       </div>
 
-      <img src="./img/profile-pic.jpg" alt="Brian Bycynski Smiling" class="" />
+      <img src="/img/profile-pic.jpg" class="profile-pic" alt="" />
     </section>
 
     <!-- My Work -->
-
     <section class="my-work" id="work">
       <h2 class="section__title">My Work</h2>
       <p class="section__subtitle"></p>
 
       <div class="portfolio">
-        <a href="#" class="portfolio__item">
-          <img src="/img/portfolio-01.jpg" alt="" class="protfolio__img" />
+        <a href="" class="portfolio__item">
+          <img src="/img-1/portfolio-01.jpg" class="portfolio__img" alt="" />
         </a>
-        <a href="#" class="portfolio__item">
-          <img src="/img/portfolio-02.jpg" alt="" class="protfolio__img" />
+        <a href="" class="portfolio__item">
+          <img src="/img-1/portfolio-02.jpg" class="portfolio__img" alt="" />
         </a>
-        <a href="#" class="portfolio__item">
-          <img src="/img/portfolio-03.jpg" alt="" class="protfolio__img" />
+        <a href="" class="portfolio__item">
+          <img src="/img-1/portfolio-03.jpg" class="portfolio__img" alt="" />
         </a>
-        <a href="#" class="portfolio__item">
-          <img src="/img/portfolio-04.jpg" alt="" class="protfolio__img" />
+        <a href="" class="portfolio__item">
+          <img src="/img-1/portfolio-04.jpg" class="portfolio__img" alt="" />
         </a>
-        <a href="#" class="portfolio__item">
-          <img src="/img/portfolio-05.jpg" alt="" class="protfolio__img" />
+        <a href="" class="portfolio__item">
+          <img src="/img-1/portfolio-05.jpg" class="portfolio__img" alt="" />
         </a>
-        <a href="#" class="portfolio__item">
-          <img src="/img/portfolio-06.jpg" alt="" class="protfolio__img" />
+        <a href="" class="portfolio__item">
+          <img src="/img-1/portfolio-06.jpg" class="portfolio__img" alt="" />
         </a>
-        <a href="#" class="portfolio__item">
-          <img src="/img/portfolio-07.jpg" alt="" class="protfolio__img" />
+        <a href="" class="portfolio__item">
+          <img src="/img-1/portfolio-07.jpg" class="portfolio__img" alt="" />
         </a>
-        <a href="#" class="portfolio__item">
-          <img src="/img/portfolio-08.jpg" alt="" class="protfolio__img" />
+        <a href="" class="portfolio__item">
+          <img src="/img-1/portfolio-08.jpg" class="portfolio__img" alt="" />
         </a>
-        <a href="#" class="portfolio__item">
-          <img src="/img/portfolio-09.jpg" alt="" class="protfolio__img" />
+        <a href="" class="portfolio__item">
+          <img src="/img-1/portfolio-09.jpg" class="portfolio__img" alt="" />
         </a>
-        <a href="#" class="portfolio__item">
-          <img src="/img/portfolio-10.jpg" alt="" class="protfolio__img" />
+        <a href="" class="portfolio__item">
+          <img src="/img-1/portfolio-10.jpg" class="portfolio__img" alt="" />
         </a>
       </div>
     </section>
 
     <!-- Footer -->
-
     <footer>
       <a href="mailto:high5bri@hotmail.com" class="footer__link"
         >high5bri@hotmail.com</a
       >
       <ul class="social-list">
         <li class="social-list__item">
-          <a href="https://github.com" class="social-list__link">A</a>
+          <a
+            href="https://github.com"
+            class="social-list__link"
+            target="__blank"
+            >A</a
+          >
         </li>
         <li class="social-list__item">
-          <a href="https://github.com" class="social-list__link">A</a>
+          <a
+            href="https://github.com"
+            class="social-list__link"
+            target="__blank"
+            >B</a
+          >
         </li>
         <li class="social-list__item">
-          <a href="https://github.com" class="social-list__link">A</a>
+          <a
+            href="https://github.com"
+            class="social-list__link"
+            target="__blank"
+            >C</a
+          >
         </li>
         <li class="social-list__item">
-          <a href="https://github.com" class="social-list__link">A</a>
+          <a
+            href="https://github.com"
+            class="social-list__link"
+            target="__blank"
+            >D</a
+          >
         </li>
       </ul>
     </footer>
+    <!-- <a href="https://github.com/bdog72" class="github-anchor" target="__blank">
+      <img
+        src="https://ghchart.rshah.org/bdog72"
+        alt="github chart"
+        class="github-chart__img"
+      />
+    </a> -->
   </body>
 </html>
