@@ -1,14 +1,8 @@
 /*  */
 /*  */
 /*  */
-/* Portfolio-2022 */
+/* Tutorial Portfolio */
 /*  */
-
-.github-chart__img {
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px;
-}
 
 *,
 *::before,
@@ -332,7 +326,7 @@ header {
 
 .service {
   max-width: 500px;
-  margin: 30px auto;
+  margin: 0 auto;
 }
 
 @media (min-width: 800px) {
